@@ -6,6 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -458,14 +459,16 @@ body {
 .new-text p {
   max-width: 560px;
   margin: 0 0 30px;
-  font-size: 14px line-height;
+  font-size: 14px;
+  line-height: 130%;
+  font-weight: 700;
 }
 
 .new-text b {
   max-width: 560px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 130%;
 }
 
 .news-img {
@@ -498,7 +501,6 @@ body {
 
 .color-item p {
   margin: 0;
-  font-size: 14px;
   line-height: 26px;
 }
 
@@ -730,7 +732,6 @@ body {
     bottom: 0;
     right: 0;
     background-color: #0a0a0a;
-    opacity: 0.95;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
